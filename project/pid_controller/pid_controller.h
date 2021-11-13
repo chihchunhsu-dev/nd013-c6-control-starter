@@ -16,18 +16,22 @@ class PID {
   /*
    * Errors
    */
+  double p_error, i_error, d_error;
 
   /*
    * Coefficients
    */
+  double kp, ki, kd;
 
   /*
    * Output limits
    */
+  double output_limit_max, output_limit_min;
 
   /*
    * Delta time
    */
+  double delta_time;
 
   /*
    * Constructor
